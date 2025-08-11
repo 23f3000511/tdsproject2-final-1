@@ -1,0 +1,18 @@
+--- DataFrame Info ---
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 0 entries
+Empty DataFrame
+
+--- DataFrame Columns ---
+[]
+
+--- DataFrame Head ---
+Empty DataFrame
+Columns: []
+Index: []
+
+--- Source URL ---
+https://en.wikipedia.org/wiki/List_of_highest-grossing_films
+
+--- JSON Answer Format ---
+["string", "string", ...]

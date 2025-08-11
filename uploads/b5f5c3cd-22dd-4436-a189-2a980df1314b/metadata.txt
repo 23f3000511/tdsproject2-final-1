@@ -1,0 +1,10 @@
+Data file path: uploads/b5f5c3cd-22dd-4436-a189-2a980df1314b\data.csv
+DataFrame info:
+None
+DataFrame columns:
+RangeIndex(start=0, stop=0, step=1)
+DataFrame head:
+Empty DataFrame
+Columns: []
+Index: []
+JSON answer format: {"Total Revenue": "value", "Profit Margin Trend": "better/worse", "Cash Flow 2025": "value", "Sector": "value", "Industry": "value"}

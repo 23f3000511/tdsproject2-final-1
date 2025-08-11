@@ -1,0 +1,8 @@
+2025-08-11 23:49:46,685 [INFO] Step-1: Folder created: uploads\a2629633-0663-4896-84d9-9a460f08296f
+2025-08-11 23:49:46,689 [INFO] Step-2: File sent {'sample3.txt': 'uploads\\a2629633-0663-4896-84d9-9a460f08296f\\sample3.txt'}
+2025-08-11 23:49:46,691 [INFO] Step-3: Getting scrap code and metadata from llm. Tries count = 0
+2025-08-11 23:49:53,900 [INFO] Step-3: Response from scrapping: scatterplot of Rank and Peak along with a dotted red regression line through it. Return as a base-64 encoded data URI, "data:image/png;base64,iVBORw0..." under 100,000 bytes.']}
+2025-08-11 23:50:03,668 [INFO] Step-5: Getting execution code from llm. Tries count = 0
+2025-08-11 23:50:16,972 [INFO] Step-5: Response from llm: = "data:image/png;base64," + base64.b64encode(buffer.getvalue()).decode('utf-8') plt.close(fig) final_answers = { "answers": [ans1, ans2, ans3, img_base64] } output_path = "uploads/a2629633-0663-4896-84d9-9a460f08296f/result.json" with open(output_path, 'w') as f: json.dump(final_answers, f, indent=4)
+2025-08-11 23:50:16,983 [INFO] Step-6: Executing final code. Tries count = 0
+2025-08-11 23:50:22,141 [INFO] Step-7: send result back

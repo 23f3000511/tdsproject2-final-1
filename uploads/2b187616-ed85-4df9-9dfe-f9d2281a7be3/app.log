@@ -1,0 +1,8 @@
+2025-08-12 00:00:49,695 [INFO] Step-1: Folder created: uploads\2b187616-ed85-4df9-9dfe-f9d2281a7be3
+2025-08-12 00:00:49,699 [INFO] Step-2: File sent {'httpsliquipedia.netvalorantVCT2025A.txt': 'uploads\\2b187616-ed85-4df9-9dfe-f9d2281a7be3\\httpsliquipedia.netvalorantVCT2025A.txt'}
+2025-08-12 00:00:49,700 [INFO] Step-3: Getting scrap code and metadata from llm. Tries count = 0
+2025-08-12 00:01:34,621 [INFO] Step-3: Response from scrapping: March 2021', 'Is the profit margin getting better or worse', 'Cash flow available as of 2025', 'What is the sector and Industry of this company']}
+2025-08-12 00:01:46,494 [INFO] Step-5: Getting execution code from llm. Tries count = 0
+2025-08-12 00:02:18,094 [INFO] Step-5: Response from llm: # Define the output file path output_file_path = "uploads/2b187616-ed85-4df9-9dfe-f9d2281a7be3/result.json" # Save the results to a JSON file with open(output_file_path, 'w') as f: json.dump(results, f, indent=4)
+2025-08-12 00:02:18,095 [INFO] Step-6: Executing final code. Tries count = 0
+2025-08-12 00:02:20,265 [INFO] Step-7: send result back

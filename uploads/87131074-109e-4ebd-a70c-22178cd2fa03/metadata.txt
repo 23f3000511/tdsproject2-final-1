@@ -1,0 +1,9 @@
+Table found, but no data rows collected from: https://en.wikipedia.org/wiki/List_of_highest-grossing_films
+Data could not be scraped and saved to: uploads/87131074-109e-4ebd-a70c-22178cd2fa03\data.csv
+
+JSON Answer Format:
+{
+  "code": "string — Python scraping code as plain text",
+  "libraries": ["string — names of required libraries"],
+  "questions": ["string — extracted questions"]
+}

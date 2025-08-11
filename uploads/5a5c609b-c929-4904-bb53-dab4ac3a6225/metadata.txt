@@ -1,0 +1,16 @@
+--- Error during data scraping ---
+Could not load the full dataset from S3 due to: indian-high-court-judgments/metadata/parquet/year=*/court=*/bench=*/metadata.parquet?s3_region=ap-south-1
+The dataset is ~1TB and requires significant resources. Please consider distributed computing or loading a smaller sample if available.
+
+
+--- JSON Answer Format ---
+{
+  "Which high court disposed the most cases from 2019 - 2022?": "...",
+  "What's the regression slope of the date_of_registration - decision_date by year in the court=33_10?": "...",
+  "Plot the year and # of days of delay from the above question as a scatterplot with a regression line. Encode as a base64 data URI under 100,000 characters": "data:image/webp:base64,..."
+}
+
+
+--- File Descriptions ---
+No data.csv was created due to the error. This file describes the error.
+uploads/5a5c609b-c929-4904-bb53-dab4ac3a6225\metadata.txt: Contains information about the data loading error and the expected JSON answer format.

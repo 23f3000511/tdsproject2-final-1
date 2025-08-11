@@ -1,0 +1,6 @@
+{
+    "How many $2 bn movies were released before 2000?": "Cannot answer: No data provided.",
+    "Which is the earliest film that grossed over $1.5 bn?": "Cannot answer: No data provided.",
+    "What's the correlation between the Rank and Peak?": "Cannot answer: No data provided.",
+    "Draw a scatterplot of Rank and Peak along with a dotted red regression line through it. Return as a base-64 encoded data URI, \"data:image/png;base64,iVBORw0K...\" under 100,000 bytes.": "Cannot generate plot: No data provided."
+}

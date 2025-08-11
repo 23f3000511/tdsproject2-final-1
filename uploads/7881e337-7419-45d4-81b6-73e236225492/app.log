@@ -1,0 +1,23 @@
+2025-08-11 23:43:46,370 [INFO] Step-1: Folder created: uploads\7881e337-7419-45d4-81b6-73e236225492
+2025-08-11 23:43:46,376 [INFO] Step-2: File sent {'New Text Document.txt': 'uploads\\7881e337-7419-45d4-81b6-73e236225492\\New Text Document.txt'}
+2025-08-11 23:43:46,376 [INFO] Step-3: Getting scrap code and metadata from llm. Tries count = 0
+2025-08-11 23:43:58,259 [INFO] Step-3: Response from scrapping: scatterplot of Rank and Peak along with a dotted red regression line through it. Return as a base-64 encoded data URI, "data:image/png;base64,iVBORw0KG..." under 100,000 bytes.']}
+2025-08-11 23:44:04,694 [INFO] Step-4: Execution result of the scrape code: (string)", "Answer to Q2 (string)", "Answer to Q3 (string)", "Base64 encoded PNG image string for Q4"] ^ SyntaxError: unterminated string literal (detected at line 66)
+2025-08-11 23:44:04,695 [ERROR] Step-4: Error occured while scrapping. Tries count = 0
+2025-08-11 23:44:25,335 [INFO] Step-3: Response from scrapping: scatterplot of Rank and Peak along with a dotted red regression line through it. Return as a base-64 encoded data URI, "data:image/png;base64,iVBORw0KG..." under 100,000 bytes.']}
+2025-08-11 23:44:33,808 [INFO] Step-5: Getting execution code from llm. Tries count = 0
+2025-08-11 23:45:02,538 [INFO] Step-5: Response from llm: Save Results to JSON --- results = [ str(q1_answer), str(q2_answer), str(round(q3_answer, 4)), q4_answer ] output_path = "uploads\\7881e337-7419-45d4-81b6-73e236225492/result.json" with open(output_path, 'w') as f: json.dump(results, f, indent=4)
+2025-08-11 23:45:02,538 [INFO] Step-6: Executing final code. Tries count = 0
+2025-08-11 23:45:09,825 [INFO] Step-6: Executing final code result: File "C:\Users\goura\OneDrive\Desktop\final project 1\TDS_project2-main\venv\Lib\site-packages\pandas\io\common.py", line 873, in get_handle handle = open( handle, ...<3 lines>... newline="", ) FileNotFoundError: [Errno 2] No such file or directory: 'data.csv'
+2025-08-11 23:45:09,825 [ERROR] Step-6: Error occured while executing code. Tries count = 2
+2025-08-11 23:45:09,827 [INFO] Step-5: Getting execution code from llm. Tries count = 1
+2025-08-11 23:45:28,274 [INFO] Step-5: Response from llm: plt.close() results = [ str(q1_answer), str(q2_answer), f"{q3_answer:.2f}", q4_answer_base64 ] output_dir = r"uploads\7881e337-7419-45d4-81b6-73e236225492" output_filepath = os.path.join(output_dir, "result.json") os.makedirs(output_dir, exist_ok=True) with open(output_filepath, 'w') as f: json.dump(results, f)
+2025-08-11 23:45:34,527 [INFO] Step-6: Executing final code result: File "C:\Users\goura\OneDrive\Desktop\final project 1\TDS_project2-main\venv\Lib\site-packages\pandas\io\common.py", line 873, in get_handle handle = open( handle, ...<3 lines>... newline="", ) FileNotFoundError: [Errno 2] No such file or directory: 'data.csv'
+2025-08-11 23:45:34,527 [ERROR] Step-6: Error occured while executing code. Tries count = 3
+2025-08-11 23:45:34,527 [INFO] Step-5: Getting execution code from llm. Tries count = 1
+2025-08-11 23:45:46,752 [INFO] Step-5: Response from llm: [ str(answer_q1), str(answer_q2), str(answer_q3), answer_q4 ] # Save the results to a JSON file output_path = "uploads/7881e337-7419-45d4-81b6-73e236225492/result.json" with open(output_path, 'w') as f: json.dump(results, f, indent=4)
+2025-08-11 23:45:53,490 [INFO] Step-6: Executing final code result: File "C:\Users\goura\OneDrive\Desktop\final project 1\TDS_project2-main\venv\Lib\site-packages\pandas\io\common.py", line 873, in get_handle handle = open( handle, ...<3 lines>... newline="", ) FileNotFoundError: [Errno 2] No such file or directory: 'data.csv'
+2025-08-11 23:45:53,490 [ERROR] Step-6: Error occured while executing code. Tries count = 4
+2025-08-11 23:45:53,491 [INFO] Step-5: Getting execution code from llm. Tries count = 1
+2025-08-11 23:46:13,736 [INFO] Step-5: Response from llm: # Create the directory if it doesn't exist os.makedirs(output_dir, exist_ok=True) # Save the result to JSON file with open(output_file, 'w') as f: json.dump(result, f, indent=4)
+2025-08-11 23:46:20,242 [INFO] Step-6: Executing final code result: File "C:\Users\goura\OneDrive\Desktop\final project 1\TDS_project2-main\venv\Lib\site-packages\pandas\io\common.py", line 873, in get_handle handle = open( handle, ...<3 lines>... newline="", ) FileNotFoundError: [Errno 2] No such file or directory: 'data.csv'

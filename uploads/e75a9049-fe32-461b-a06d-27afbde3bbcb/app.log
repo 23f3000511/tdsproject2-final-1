@@ -1,0 +1,20 @@
+2025-08-12 00:17:41,415 [INFO] Step-1: Folder created: uploads\e75a9049-fe32-461b-a06d-27afbde3bbcb
+2025-08-12 00:17:41,419 [INFO] Step-2: File sent {'New Text Document.txt': 'uploads\\e75a9049-fe32-461b-a06d-27afbde3bbcb\\New Text Document.txt'}
+2025-08-12 00:17:41,419 [INFO] Step-3: Getting scrap code and metadata from llm. Tries count = 0
+2025-08-12 00:18:10,419 [INFO] Step-3: Response from scrapping: scatterplot of Rank and Peak along with a dotted red regression line through it. Return as a base-64 encoded data URI, "data:image/png;base64,iVBORw0KG..." under 100,000 bytes.']}
+2025-08-12 00:18:15,711 [INFO] Step-5: Getting execution code from llm. Tries count = 0
+2025-08-12 00:18:22,608 [INFO] Step-5: Response from llm: bbox_inches='tight') plt.close() img_buffer.seek(0) img_base64 = base64.b64encode(img_buffer.read()).decode('utf-8') img_data_uri = f"data:image/png;base64,{img_base64}" results = [ f"{movies_2bn_before_2000}", f"{earliest_1_5bn_movie}", f"{correlation_rank_peak:.4f}", img_data_uri ] with open('uploads/e75a9049-fe32-461b-a06d-27afbde3bbcb/result.json', 'w') as f: json.dump(results, f, indent=4)
+2025-08-12 00:18:22,609 [INFO] Step-6: Executing final code. Tries count = 0
+2025-08-12 00:18:28,649 [INFO] Step-6: Executing final code result: File "C:\Users\goura\OneDrive\Desktop\final project 1\TDS_project2-main\venv\Lib\site-packages\pandas\io\common.py", line 873, in get_handle handle = open( handle, ...<3 lines>... newline="", ) FileNotFoundError: [Errno 2] No such file or directory: 'data.csv'
+2025-08-12 00:18:28,649 [ERROR] Step-6: Error occured while executing code. Tries count = 2
+2025-08-12 00:18:28,649 [INFO] Step-5: Getting execution code from llm. Tries count = 1
+2025-08-12 00:18:46,238 [INFO] Step-5: Response from llm: plt.close() image_base64 = base64.b64encode(buf.getvalue()).decode('utf-8') image_data_uri = f"data:image/png;base64,{image_base64}" results = [ q1_answer, q2_answer, q3_answer, image_data_uri ] output_path = "uploads/e75a9049-fe32-461b-a06d-27afbde3bbcb/result.json" with open(output_path, 'w') as f: json.dump(results, f)
+2025-08-12 00:18:52,607 [INFO] Step-6: Executing final code result: File "C:\Users\goura\OneDrive\Desktop\final project 1\TDS_project2-main\venv\Lib\site-packages\pandas\io\common.py", line 873, in get_handle handle = open( handle, ...<3 lines>... newline="", ) FileNotFoundError: [Errno 2] No such file or directory: 'data.csv'
+2025-08-12 00:18:52,608 [ERROR] Step-6: Error occured while executing code. Tries count = 3
+2025-08-12 00:18:52,608 [INFO] Step-5: Getting execution code from llm. Tries count = 1
+2025-08-12 00:19:07,656 [INFO] Step-5: Response from llm: results = [ f"{q1_answer} movies", q2_answer, q3_answer, q4_answer_uri ] # Save results to JSON output_path = "uploads/e75a9049-fe32-461b-a06d-27afbde3bbcb/result.json" with open(output_path, 'w') as f: json.dump(results, f, indent=4)
+2025-08-12 00:19:14,524 [INFO] Step-6: Executing final code result: File "C:\Users\goura\OneDrive\Desktop\final project 1\TDS_project2-main\venv\Lib\site-packages\pandas\io\common.py", line 873, in get_handle handle = open( handle, ...<3 lines>... newline="", ) FileNotFoundError: [Errno 2] No such file or directory: 'data.csv'
+2025-08-12 00:19:14,524 [ERROR] Step-6: Error occured while executing code. Tries count = 4
+2025-08-12 00:19:14,524 [INFO] Step-5: Getting execution code from llm. Tries count = 1
+2025-08-12 00:19:23,441 [INFO] Step-5: Response from llm: = [ str(count_2bn_before_2000), earliest_film_over_1_5bn, str(rank_peak_correlation), img_uri ] # Save results to a JSON file output_file_path = "uploads/e75a9049-fe32-461b-a06d-27afbde3bbcb/result.json" with open(output_file_path, 'w') as f: json.dump(results, f, indent=4)
+2025-08-12 00:19:30,407 [INFO] Step-6: Executing final code result: File "C:\Users\goura\OneDrive\Desktop\final project 1\TDS_project2-main\venv\Lib\site-packages\pandas\io\common.py", line 873, in get_handle handle = open( handle, ...<3 lines>... newline="", ) FileNotFoundError: [Errno 2] No such file or directory: 'data.csv'

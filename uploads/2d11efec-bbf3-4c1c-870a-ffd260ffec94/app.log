@@ -1,0 +1,8 @@
+2025-08-11 23:40:47,608 [INFO] Step-1: Folder created: uploads\2d11efec-bbf3-4c1c-870a-ffd260ffec94
+2025-08-11 23:40:47,616 [INFO] Step-2: File sent {'httpsliquipedia.netvalorantVCT2025A.txt': 'uploads\\2d11efec-bbf3-4c1c-870a-ffd260ffec94\\httpsliquipedia.netvalorantVCT2025A.txt'}
+2025-08-11 23:40:47,616 [INFO] Step-3: Getting scrap code and metadata from llm. Tries count = 0
+2025-08-11 23:41:44,441 [INFO] Step-3: Response from scrapping: the Producer', 'How many players from Asian countries', 'Who had the first match', 'Who will have the last match', 'Total match mvp players from Leviatan']}
+2025-08-11 23:41:51,305 [INFO] Step-5: Getting execution code from llm. Tries count = 0
+2025-08-11 23:42:10,025 [INFO] Step-5: Response from llm: error occurred: {str(e)}" results["Total match mvp players from Leviatan"] = f"An unexpected error occurred: {str(e)}" os.makedirs(os.path.dirname(output_file_path), exist_ok=True) with open(output_file_path, 'w') as f: json.dump(results, f, indent=4)
+2025-08-11 23:42:10,026 [INFO] Step-6: Executing final code. Tries count = 0
+2025-08-11 23:42:12,563 [INFO] Step-7: send result back

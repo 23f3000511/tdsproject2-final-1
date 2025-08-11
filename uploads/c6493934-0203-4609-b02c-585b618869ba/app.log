@@ -1,0 +1,12 @@
+2025-08-11 23:54:31,685 [INFO] Step-1: Folder created: uploads\c6493934-0203-4609-b02c-585b618869ba
+2025-08-11 23:54:31,691 [INFO] Step-2: File sent {'New Text Document.txt': 'uploads\\c6493934-0203-4609-b02c-585b618869ba\\New Text Document.txt'}
+2025-08-11 23:54:31,691 [INFO] Step-3: Getting scrap code and metadata from llm. Tries count = 0
+2025-08-11 23:54:41,271 [INFO] Step-3: Response from scrapping: scatterplot of Rank and Peak along with a dotted red regression line through it. Return as a base-64 encoded data URI, "data:image/png;base64,iVBORw0KG..." under 100,000 bytes.']}
+2025-08-11 23:54:47,506 [INFO] Step-5: Getting execution code from llm. Tries count = 0
+2025-08-11 23:55:04,098 [INFO] Step-5: Response from llm: result_list = [ f"{q1_answer} movies", q2_answer, f"{q3_answer:.2f}", data_uri ] # Save results to JSON file output_path = "uploads/c6493934-0203-4609-b02c-585b618869ba/result.json" with open(output_path, 'w') as f: json.dump(result_list, f)
+2025-08-11 23:55:04,099 [INFO] Step-6: Executing final code. Tries count = 0
+2025-08-11 23:55:11,881 [INFO] Step-6: Executing final code result: execute_code() ~~~~~~~~~~~~^^ File "C:\Users\goura\OneDrive\Desktop\final project 1\TDS_project2-main\task_engine.py", line 22, in execute_code exec(code, exec_globals) ~~~~^^^^^^^^^^^^^^^^^^^^ File "<string>", line 9, in <module> NameError: name 'df' is not defined
+2025-08-11 23:55:11,881 [ERROR] Step-6: Error occured while executing code. Tries count = 2
+2025-08-11 23:55:11,882 [INFO] Step-5: Getting execution code from llm. Tries count = 1
+2025-08-11 23:55:34,294 [INFO] Step-5: Response from llm: path for the results JSON file output_path = "uploads\\c6493934-0203-4609-b02c-585b618869ba/result.json" # Save the results to a JSON file with open(output_path, 'w') as f: json.dump(results, f, indent=4)
+2025-08-11 23:55:42,100 [INFO] Step-7: send result back

@@ -1,0 +1,29 @@
+Metadata for scraped data from Liquipedia Valorant VCT 2025 Americas League Stage 2.
+Source HTML file path: uploads\2d11efec-bbf3-4c1c-870a-ffd260ffec94\httpsliquipedia.netvalorantVCT2025A.txt
+
+Description of 'data.csv': This file contains consolidated information about players, broadcast staff, and matches from the tournament page. The 'Type' column indicates the category of the row (Player, Staff, Match). Other columns are populated based on relevance to the 'Type', with NaNs for irrelevant fields.
+
+Path to data.csv: uploads\2d11efec-bbf3-4c1c-870a-ffd260ffec94\data.csv
+
+--- DataFrame Info (data.csv) ---
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 0 entries
+Empty DataFrame
+
+
+--- DataFrame Columns (data.csv) ---
+[]
+
+--- DataFrame Head (data.csv) ---
+Empty DataFrame
+Columns: []
+Index: []
+
+--- Questions from User (for reference) ---
+- What countries are 100 Thieves Players from
+- How many observers - Replay operators are there
+- Full name of the Producer
+- How many players from Asian countries
+- Who had the first match
+- Who will have the last match
+- Total match mvp players from Leviatan

@@ -1,0 +1,323 @@
+### Data Collection Metadata ###
+
+File: data.csv
+Description: Primary dataset, typically the first table found on the webpage.
+DataFrame Info:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 13 entries, 0 to 12
+Data columns (total 2 columns):
+ #   Column  Non-Null Count  Dtype 
+---  ------  --------------  ----- 
+ 0   0       13 non-null     object
+ 1   1       13 non-null     object
+dtypes: object(2)
+memory usage: 340.0+ bytes
+
+DataFrame Columns:
+[0, 1]
+
+DataFrame Head:
+                                                                                                                                          0                                                                                                                                         1
+0                                                                                                                                 Champions                                                                                                                        VALORANT Champions
+1                                                                                                                    Championship Standings                                                                                                            Americas  China  EMEA  Pacific
+2  Click on the button on the right to see/hide Kickoff events Masters Masters Bangkok International Kickoff Americas  China  EMEA  Pacific  Click on the button on the right to see/hide Kickoff events Masters Masters Bangkok International Kickoff Americas  China  EMEA  Pacific
+3                                                                               Click on the button on the right to see/hide Kickoff events                                                                               Click on the button on the right to see/hide Kickoff events
+4                                                                                                                                   Masters                                                                                                                           Masters Bangkok
+
+### Supplementary Data Files ###
+
+File: table_1.csv
+Description: Supplementary table 1 from the webpage.
+DataFrame Columns: ['Click on the button on the right to see/hide Kickoff events', 'Click on the button on the right to see/hide Kickoff events.1']
+
+File: table_2.csv
+Description: Supplementary table 2 from the webpage.
+DataFrame Columns: ['Click on the button on the right to see/hide Stage 1 events', 'Click on the button on the right to see/hide Stage 1 events.1']
+
+File: table_3.csv
+Description: Supplementary table 3 from the webpage.
+DataFrame Columns: ['Click on the button on the right to see/hide Stage 2 events', 'Click on the button on the right to see/hide Stage 2 events.1']
+
+File: table_4.csv
+Description: Supplementary table 4 from the webpage.
+DataFrame Columns: [0, 1, 2]
+
+File: table_5.csv
+Description: Supplementary table 5 from the webpage.
+DataFrame Columns: [0, 1, 2]
+
+File: table_6.csv
+Description: Supplementary table 6 from the webpage.
+DataFrame Columns: [0, 1, 2]
+
+File: table_7.csv
+Description: Supplementary table 7 from the webpage.
+DataFrame Columns: [0, 1, 2]
+
+File: table_8.csv
+Description: Supplementary table 8 from the webpage.
+DataFrame Columns: [0, 1, 2]
+
+File: table_9.csv
+Description: Supplementary table 9 from the webpage.
+DataFrame Columns: [('Match MVPs', 'Player'), ('Match MVPs', '#MVPs')]
+
+File: table_10.csv
+Description: Supplementary table 10 from the webpage.
+DataFrame Columns: [('Base Points Distribution', 'Place'), ('Base Points Distribution', 'Points'), ('Base Points Distribution', 'Unnamed: 2_level_1')]
+
+File: table_11.csv
+Description: Supplementary table 11 from the webpage.
+DataFrame Columns: [0, 1, 2, 3, 4, 5]
+
+File: table_12.csv
+Description: Supplementary table 12 from the webpage.
+DataFrame Columns: ['Date', 'Round', 'Opponent', 'Score', 'vs. Opponent', 'Unnamed: 5']
+
+File: table_13.csv
+Description: Supplementary table 13 from the webpage.
+DataFrame Columns: [0]
+
+File: table_14.csv
+Description: Supplementary table 14 from the webpage.
+DataFrame Columns: [0, 1]
+
+File: table_15.csv
+Description: Supplementary table 15 from the webpage.
+DataFrame Columns: [0, 1]
+
+File: table_16.csv
+Description: Supplementary table 16 from the webpage.
+DataFrame Columns: [0, 1]
+
+File: table_17.csv
+Description: Supplementary table 17 from the webpage.
+DataFrame Columns: [0, 1]
+
+File: table_18.csv
+Description: Supplementary table 18 from the webpage.
+DataFrame Columns: [0, 1]
+
+File: table_19.csv
+Description: Supplementary table 19 from the webpage.
+DataFrame Columns: [0, 1]
+
+File: table_20.csv
+Description: Supplementary table 20 from the webpage.
+DataFrame Columns: [0, 1]
+
+File: table_21.csv
+Description: Supplementary table 21 from the webpage.
+DataFrame Columns: [0, 1]
+
+File: table_22.csv
+Description: Supplementary table 22 from the webpage.
+DataFrame Columns: [0, 1]
+
+File: table_23.csv
+Description: Supplementary table 23 from the webpage.
+DataFrame Columns: [0, 1]
+
+File: table_24.csv
+Description: Supplementary table 24 from the webpage.
+DataFrame Columns: [0, 1]
+
+File: table_25.csv
+Description: Supplementary table 25 from the webpage.
+DataFrame Columns: [0, 1]
+
+File: table_26.csv
+Description: Supplementary table 26 from the webpage.
+DataFrame Columns: [0, 1]
+
+File: table_27.csv
+Description: Supplementary table 27 from the webpage.
+DataFrame Columns: [0, 1]
+
+File: table_28.csv
+Description: Supplementary table 28 from the webpage.
+DataFrame Columns: [0, 1]
+
+File: table_29.csv
+Description: Supplementary table 29 from the webpage.
+DataFrame Columns: [0, 1]
+
+File: table_30.csv
+Description: Supplementary table 30 from the webpage.
+DataFrame Columns: [0, 1]
+
+File: table_31.csv
+Description: Supplementary table 31 from the webpage.
+DataFrame Columns: [0, 1]
+
+File: table_32.csv
+Description: Supplementary table 32 from the webpage.
+DataFrame Columns: [0, 1]
+
+File: table_33.csv
+Description: Supplementary table 33 from the webpage.
+DataFrame Columns: [0, 1]
+
+File: table_34.csv
+Description: Supplementary table 34 from the webpage.
+DataFrame Columns: [0, 1]
+
+File: table_35.csv
+Description: Supplementary table 35 from the webpage.
+DataFrame Columns: [0, 1]
+
+File: table_36.csv
+Description: Supplementary table 36 from the webpage.
+DataFrame Columns: [0, 1]
+
+File: table_37.csv
+Description: Supplementary table 37 from the webpage.
+DataFrame Columns: [0, 1]
+
+File: table_38.csv
+Description: Supplementary table 38 from the webpage.
+DataFrame Columns: [0, 1]
+
+File: table_39.csv
+Description: Supplementary table 39 from the webpage.
+DataFrame Columns: [0, 1]
+
+File: table_40.csv
+Description: Supplementary table 40 from the webpage.
+DataFrame Columns: [0, 1]
+
+File: table_41.csv
+Description: Supplementary table 41 from the webpage.
+DataFrame Columns: [0, 1]
+
+File: table_42.csv
+Description: Supplementary table 42 from the webpage.
+DataFrame Columns: [0, 1]
+
+File: table_43.csv
+Description: Supplementary table 43 from the webpage.
+DataFrame Columns: [0, 1]
+
+File: table_44.csv
+Description: Supplementary table 44 from the webpage.
+DataFrame Columns: [0, 1]
+
+File: table_45.csv
+Description: Supplementary table 45 from the webpage.
+DataFrame Columns: [0, 1]
+
+File: table_46.csv
+Description: Supplementary table 46 from the webpage.
+DataFrame Columns: [0, 1]
+
+File: table_47.csv
+Description: Supplementary table 47 from the webpage.
+DataFrame Columns: [0, 1]
+
+File: table_48.csv
+Description: Supplementary table 48 from the webpage.
+DataFrame Columns: [0, 1]
+
+File: table_49.csv
+Description: Supplementary table 49 from the webpage.
+DataFrame Columns: [0, 1]
+
+File: table_50.csv
+Description: Supplementary table 50 from the webpage.
+DataFrame Columns: ['Group AlphaCurrent Week 1Week 2Week 3Current', 'Group AlphaCurrent Week 1Week 2Week 3Current.1', 'Group AlphaCurrent Week 1Week 2Week 3Current.2', 'Group AlphaCurrent Week 1Week 2Week 3Current.3', 'Group AlphaCurrent Week 1Week 2Week 3Current.4', 'Group AlphaCurrent Week 1Week 2Week 3Current.5', 'Group AlphaCurrent Week 1Week 2Week 3Current.6']
+
+File: table_51.csv
+Description: Supplementary table 51 from the webpage.
+DataFrame Columns: ['Group OmegaCurrent Week 1Week 2Week 3Current', 'Group OmegaCurrent Week 1Week 2Week 3Current.1', 'Group OmegaCurrent Week 1Week 2Week 3Current.2', 'Group OmegaCurrent Week 1Week 2Week 3Current.3', 'Group OmegaCurrent Week 1Week 2Week 3Current.4', 'Group OmegaCurrent Week 1Week 2Week 3Current.5', 'Group OmegaCurrent Week 1Week 2Week 3Current.6']
+
+File: table_52.csv
+Description: Supplementary table 52 from the webpage.
+DataFrame Columns: ['Unnamed: 0', 'Map Veto', 'Unnamed: 2']
+
+File: table_53.csv
+Description: Supplementary table 53 from the webpage.
+DataFrame Columns: ['Unnamed: 0', 'Map Veto', 'Unnamed: 2']
+
+File: table_54.csv
+Description: Supplementary table 54 from the webpage.
+DataFrame Columns: ['Unnamed: 0', 'Map Veto', 'Unnamed: 2']
+
+File: table_55.csv
+Description: Supplementary table 55 from the webpage.
+DataFrame Columns: ['Unnamed: 0', 'Map Veto', 'Unnamed: 2']
+
+File: table_56.csv
+Description: Supplementary table 56 from the webpage.
+DataFrame Columns: ['Unnamed: 0', 'Map Veto', 'Unnamed: 2']
+
+File: table_57.csv
+Description: Supplementary table 57 from the webpage.
+DataFrame Columns: ['Unnamed: 0', 'Map Veto', 'Unnamed: 2']
+
+File: table_58.csv
+Description: Supplementary table 58 from the webpage.
+DataFrame Columns: ['Unnamed: 0', 'Map Veto', 'Unnamed: 2']
+
+File: table_59.csv
+Description: Supplementary table 59 from the webpage.
+DataFrame Columns: ['Unnamed: 0', 'Map Veto', 'Unnamed: 2']
+
+File: table_60.csv
+Description: Supplementary table 60 from the webpage.
+DataFrame Columns: ['Unnamed: 0', 'Map Veto', 'Unnamed: 2']
+
+File: table_61.csv
+Description: Supplementary table 61 from the webpage.
+DataFrame Columns: ['Unnamed: 0', 'Map Veto', 'Unnamed: 2']
+
+File: table_62.csv
+Description: Supplementary table 62 from the webpage.
+DataFrame Columns: ['Unnamed: 0', 'Map Veto', 'Unnamed: 2']
+
+File: table_63.csv
+Description: Supplementary table 63 from the webpage.
+DataFrame Columns: [('Unnamed: 0_level_0', 'Start Map Veto'), ('Map Veto', 'Unnamed: 1_level_1'), ('Unnamed: 2_level_0', 'Unnamed: 2_level_1')]
+
+File: table_64.csv
+Description: Supplementary table 64 from the webpage.
+DataFrame Columns: ['Points Earned', 'Points Earned.1', 'Points Earned.2', 'Points Earned.3', 'Points Earned.4', 'Points Earned.5', 'Points Earned.6']
+
+File: table_65.csv
+Description: Supplementary table 65 from the webpage.
+DataFrame Columns: ['#', 'Country / Region', 'Representation', 'Players']
+
+File: table_66.csv
+Description: Supplementary table 66 from the webpage.
+DataFrame Columns: ['Primary', 'Primary.1', 'Primary.2', 'Primary.3', 'Primary.4', 'Primary.5', 'Primary.6', 'Primary.7', 'Primary.8', 'Primary.9', 'Primary.10', 'Primary.11', 'Primary.12', 'Primary.13', 'Primary.14', 'Primary.15', 'Primary.16', 'Primary.17', 'Primary.18', 'Primary.19', 'Primary.20', 'Primary.21', 'Primary.22', 'Primary.23', 'Primary.24', 'Primary.25', 'Primary.26', 'Primary.27', 'Primary.28', 'Primary.29', 'Primary.30', 'Primary.31', 'Primary.32', 'Primary.33', 'Primary.34', 'Primary.35', 'Primary.36', 'Primary.37', 'Primary.38', 'Primary.39', 'Primary.40', 'Primary.41', 'Primary.42', 'Primary.43', 'Primary.44', 'Primary.45', 'Primary.46', 'Primary.47', 'Primary.48', 'Primary.49', 'Primary.50', 'Primary.51', 'Primary.52', 'Primary.53', 'Primary.54', 'Primary.55', 'Primary.56', 'Primary.57', 'Primary.58', 'Primary.59', 'Primary.60', 'Primary.61', 'Primary.62', 'Primary.63', 'Primary.64', 'Primary.65', 'Primary.66', 'Primary.67', 'Primary.68', 'Primary.69', 'Primary.70', 'Primary.71', 'Primary.72', 'Primary.73', 'Primary.74', 'Primary.75', 'Primary.76', 'Primary.77', 'Primary.78', 'Primary.79', 'Primary.80', 'Primary.81', 'Primary.82', 'Primary.83', 'Primary.84', 'Primary.85', 'Primary.86', 'Primary.87', 'Primary.88', 'Primary.89', 'Primary.90', 'Primary.91', 'Primary.92', 'Primary.93', 'Primary.94', 'Primary.95', 'Primary.96', 'Primary.97', 'Primary.98', 'Primary.99']
+
+File: table_67.csv
+Description: Supplementary table 67 from the webpage.
+DataFrame Columns: ['Secondary', 'Secondary.1', 'Secondary.2', 'Secondary.3', 'Secondary.4', 'Secondary.5', 'Secondary.6', 'Secondary.7', 'Secondary.8', 'Secondary.9', 'Secondary.10', 'Secondary.11', 'Secondary.12', 'Secondary.13', 'Secondary.14', 'Secondary.15', 'Secondary.16', 'Secondary.17', 'Secondary.18', 'Secondary.19', 'Secondary.20', 'Secondary.21', 'Secondary.22', 'Secondary.23', 'Secondary.24', 'Secondary.25', 'Secondary.26', 'Secondary.27', 'Secondary.28', 'Secondary.29', 'Secondary.30', 'Secondary.31', 'Secondary.32', 'Secondary.33', 'Secondary.34', 'Secondary.35', 'Secondary.36', 'Secondary.37', 'Secondary.38', 'Secondary.39', 'Secondary.40', 'Secondary.41', 'Secondary.42', 'Secondary.43', 'Secondary.44', 'Secondary.45', 'Secondary.46', 'Secondary.47', 'Secondary.48', 'Secondary.49', 'Secondary.50', 'Secondary.51', 'Secondary.52', 'Secondary.53', 'Secondary.54', 'Secondary.55', 'Secondary.56', 'Secondary.57', 'Secondary.58', 'Secondary.59', 'Secondary.60', 'Secondary.61', 'Secondary.62', 'Secondary.63', 'Secondary.64', 'Secondary.65', 'Secondary.66', 'Secondary.67', 'Secondary.68', 'Secondary.69', 'Secondary.70', 'Secondary.71', 'Secondary.72', 'Secondary.73', 'Secondary.74', 'Secondary.75', 'Secondary.76', 'Secondary.77', 'Secondary.78', 'Secondary.79', 'Secondary.80', 'Secondary.81', 'Secondary.82', 'Secondary.83', 'Secondary.84', 'Secondary.85', 'Secondary.86', 'Secondary.87', 'Secondary.88', 'Secondary.89', 'Secondary.90', 'Secondary.91', 'Secondary.92', 'Secondary.93', 'Secondary.94', 'Secondary.95', 'Secondary.96', 'Secondary.97', 'Secondary.98', 'Secondary.99']
+
+File: table_68.csv
+Description: Supplementary table 68 from the webpage.
+DataFrame Columns: [0, 1]
+
+File: table_69.csv
+Description: Supplementary table 69 from the webpage.
+DataFrame Columns: ['Click on the button on the right to see/hide Kickoff events', 'Click on the button on the right to see/hide Kickoff events.1']
+
+File: table_70.csv
+Description: Supplementary table 70 from the webpage.
+DataFrame Columns: ['Click on the button on the right to see/hide Stage 1 events', 'Click on the button on the right to see/hide Stage 1 events.1']
+
+File: table_71.csv
+Description: Supplementary table 71 from the webpage.
+DataFrame Columns: ['Click on the button on the right to see/hide Stage 2 events', 'Click on the button on the right to see/hide Stage 2 events.1']
+
+
+### Expected JSON Answer Format (for future analysis) ###
+{
+  "countries_100T": ["string", ...],
+  "observers_replay_operators_count": "integer",
+  "producer_full_name": "string",
+  "asian_players_count": "integer",
+  "first_match_teams": "string",
+  "last_match_teams": "string",
+  "leviatan_mvp_count": "integer"
+}

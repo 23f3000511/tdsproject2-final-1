@@ -1,0 +1,12 @@
+2025-08-12 00:15:35,423 [INFO] Step-1: Folder created: uploads\8c07604b-0d30-4d44-944c-b96bdda94435
+2025-08-12 00:15:35,426 [INFO] Step-2: File sent {'New Text Document.txt': 'uploads\\8c07604b-0d30-4d44-944c-b96bdda94435\\New Text Document.txt'}
+2025-08-12 00:15:35,427 [INFO] Step-3: Getting scrap code and metadata from llm. Tries count = 0
+2025-08-12 00:15:58,143 [INFO] Step-3: Response from scrapping: scatterplot of Rank and Peak along with a dotted red regression line through it. Return as a base-64 encoded data URI, "data:image/png;base64,iVBORw0KG..." under 100,000 bytes.']}
+2025-08-12 00:16:04,747 [INFO] Step-5: Getting execution code from llm. Tries count = 0
+2025-08-12 00:16:17,799 [INFO] Step-5: Response from llm: JSON final_results = [ans1, ans2, ans3, ans4] # Save the results to the specified file output_path = "uploads\\8c07604b-0d30-4d44-944c-b96bdda94435/result.json" with open(output_path, 'w') as f: json.dump(final_results, f)
+2025-08-12 00:16:17,809 [INFO] Step-6: Executing final code. Tries count = 0
+2025-08-12 00:16:29,240 [INFO] Step-6: Executing final code result: File "C:\Users\goura\OneDrive\Desktop\final project 1\TDS_project2-main\venv\Lib\site-packages\pandas\core\frame.py", line 4107, in __getitem__ indexer = self.columns.get_loc(key) File "C:\Users\goura\OneDrive\Desktop\final project 1\TDS_project2-main\venv\Lib\site-packages\pandas\core\indexes\base.py", line 3819, in get_loc raise KeyError(key) from err KeyError: 'Film'
+2025-08-12 00:16:29,240 [ERROR] Step-6: Error occured while executing code. Tries count = 2
+2025-08-12 00:16:29,241 [INFO] Step-5: Getting execution code from llm. Tries count = 1
+2025-08-12 00:16:57,763 [INFO] Step-5: Response from llm: # Define the output file path output_file_path = "uploads\\8c07604b-0d30-4d44-944c-b96bdda94435/result.json" # Save the results to the specified JSON file with open(output_file_path, 'w') as f: json.dump(results_list, f)
+2025-08-12 00:17:08,435 [INFO] Step-7: send result back

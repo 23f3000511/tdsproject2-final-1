@@ -1,0 +1,16 @@
+2025-08-11 23:46:46,661 [INFO] Step-1: Folder created: uploads\56fdd6de-ee03-4988-88e1-1d9bfe198b3a
+2025-08-11 23:46:46,666 [INFO] Step-2: File sent {'sample1 (1).txt': 'uploads\\56fdd6de-ee03-4988-88e1-1d9bfe198b3a\\sample1 (1).txt'}
+2025-08-11 23:46:46,666 [INFO] Step-3: Getting scrap code and metadata from llm. Tries count = 0
+2025-08-11 23:47:22,038 [INFO] Step-3: Response from scrapping: in the match?', 'Which Indian bowler took the most wickets while conceding the fewest runs?', 'Which team won the match, and by what margin runs?']}
+2025-08-11 23:47:30,873 [INFO] Step-5: Getting execution code from llm. Tries count = 0
+2025-08-11 23:47:54,711 [INFO] Step-5: Response from llm: # Define the output file path output_filepath = "uploads/56fdd6de-ee03-4988-88e1-1d9bfe198b3a/result.json" # Save the results to a JSON file with open(output_filepath, 'w') as f: json.dump(results, f, indent=2)
+2025-08-11 23:47:54,712 [INFO] Step-6: Executing final code. Tries count = 0
+2025-08-11 23:47:56,734 [INFO] Step-6: Executing final code result: File "C:\Users\goura\OneDrive\Desktop\final project 1\TDS_project2-main\venv\Lib\site-packages\pandas\io\common.py", line 873, in get_handle handle = open( handle, ...<3 lines>... newline="", ) FileNotFoundError: [Errno 2] No such file or directory: 'india_batting_scorecard.csv'
+2025-08-11 23:47:56,734 [ERROR] Step-6: Error occured while executing code. Tries count = 2
+2025-08-11 23:47:56,735 [INFO] Step-5: Getting execution code from llm. Tries count = 1
+2025-08-11 23:48:27,607 [INFO] Step-5: Response from llm: Create the directory if it doesn't exist os.makedirs(output_dir, exist_ok=True) # Save the results to a JSON file with open(output_filepath, 'w') as f: json.dump(results, f, indent=2)
+2025-08-11 23:48:29,996 [INFO] Step-6: Executing final code result: File "C:\Users\goura\OneDrive\Desktop\final project 1\TDS_project2-main\venv\Lib\site-packages\pandas\io\common.py", line 873, in get_handle handle = open( handle, ...<3 lines>... newline="", ) FileNotFoundError: [Errno 2] No such file or directory: 'west_indies_batting_scorecard.csv'
+2025-08-11 23:48:29,997 [ERROR] Step-6: Error occured while executing code. Tries count = 3
+2025-08-11 23:48:29,997 [INFO] Step-5: Getting execution code from llm. Tries count = 1
+2025-08-11 23:49:03,852 [INFO] Step-5: Response from llm: output_dir = "uploads/56fdd6de-ee03-4988-88e1-1d9bfe198b3a" os.makedirs(output_dir, exist_ok=True) output_path = os.path.join(output_dir, "result.json") # Save the results to the JSON file with open(output_path, 'w') as f: json.dump(results_list, f, indent=2)
+2025-08-11 23:49:06,200 [INFO] Step-7: send result back

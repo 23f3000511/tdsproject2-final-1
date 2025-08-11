@@ -1,0 +1,14 @@
+2025-08-12 00:08:56,041 [INFO] Step-1: Folder created: uploads\73250bad-f804-4d24-a12b-3971f9b9a2a7
+2025-08-12 00:08:56,044 [INFO] Step-2: File sent {'sample1 (1).txt': 'uploads\\73250bad-f804-4d24-a12b-3971f9b9a2a7\\sample1 (1).txt'}
+2025-08-12 00:08:56,045 [INFO] Step-3: Getting scrap code and metadata from llm. Tries count = 0
+2025-08-12 00:09:00,558 [INFO] Step-3: Response from scrapping: in the match?', 'Which Indian bowler took the most wickets while conceding the fewest runs?', 'Which team won the match, and by what margin runs?']}
+2025-08-12 00:09:07,541 [INFO] Step-4: Execution result of the scrape code: _finalize_columns_and_data(arr, columns, dtype) ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^ File "C:\Users\goura\OneDrive\Desktop\final project 1\TDS_project2-main\venv\Lib\site-packages\pandas\core\internals\construction.py", line 942, in _finalize_columns_and_data raise ValueError(err) from err ValueError: 1 columns passed, passed data had 7 columns
+2025-08-12 00:09:07,541 [ERROR] Step-4: Error occured while scrapping. Tries count = 0
+2025-08-12 00:09:10,875 [INFO] Step-3: Response from scrapping: in the match?', 'Which Indian bowler took the most wickets while conceding the fewest runs?', 'Which team won the match, and by what margin runs?']}
+2025-08-12 00:09:12,941 [INFO] Step-5: Getting execution code from llm. Tries count = 0
+2025-08-12 00:09:16,912 [INFO] Step-5: Response from llm: str(margin) + ' runs' ] #Save to json file output_dir = 'uploads/73250bad-f804-4d24-a12b-3971f9b9a2a7/' os.makedirs(output_dir, exist_ok=True) output_path = os.path.join(output_dir, 'result.json') with open(output_path, 'w') as f: json.dump(answers, f)
+2025-08-12 00:09:16,912 [INFO] Step-6: Executing final code. Tries count = 0
+2025-08-12 00:09:19,411 [INFO] Step-6: Executing final code result: File "C:\Users\goura\OneDrive\Desktop\final project 1\TDS_project2-main\venv\Lib\site-packages\pandas\io\common.py", line 873, in get_handle handle = open( handle, ...<3 lines>... newline="", ) FileNotFoundError: [Errno 2] No such file or directory: 'data.csv'
+2025-08-12 00:09:19,411 [ERROR] Step-6: Error occured while executing code. Tries count = 2
+2025-08-12 00:09:19,411 [INFO] Step-5: Getting execution code from llm. Tries count = 1
+2025-08-12 00:09:24,210 [INFO] Step-5: Response from llm: "uploads/73250bad-f804-4d24-a12b-3971f9b9a2a7/" os.makedirs(directory, exist_ok=True) #Save to JSON file filepath = os.path.join(directory, "result.json") with open(filepath, 'w') as f: import json json.dump(results, f, indent=4) #Print to verify print(results)

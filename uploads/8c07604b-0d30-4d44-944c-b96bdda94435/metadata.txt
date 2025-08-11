@@ -1,0 +1,6 @@
+--- Data Description ---
+Failed to scrape data from URL: https://en.wikipedia.org/wiki/List_of_highest-grossing_films
+Error: ['Film']
+
+--- JSON Answer Format ---
+["string", "string", "string", "data:image/png;base64,..."]

@@ -1,0 +1,15 @@
+### Dataset Info ###
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 0 entries
+Empty DataFrame
+
+### Columns ###
+[]
+
+### Head of DataFrame ###
+Empty DataFrame
+Columns: []
+Index: []
+
+### JSON Answer Format (for analysis phase) ###
+{"answers": ["answer_to_q1", "answer_to_q2", "answer_to_q3", "data:image/png;base64,iVBORw0..."]}

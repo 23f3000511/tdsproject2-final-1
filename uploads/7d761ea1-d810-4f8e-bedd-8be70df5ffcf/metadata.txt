@@ -1,0 +1,2 @@
+Could not find the expected table on the Wikipedia page.
+No data was scraped or saved.

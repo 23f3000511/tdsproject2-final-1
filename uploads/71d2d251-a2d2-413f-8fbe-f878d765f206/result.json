@@ -1,0 +1,11 @@
+{
+  "countries_100T": [
+    "Error: [Errno 2] No such file or directory: 'table_29.csv'. Information not explicitly available in table_29.csv with assumed structure."
+  ],
+  "observers_replay_operators_count": "Error processing data.csv for observers: [Errno 2] No such file or directory: 'data.csv'",
+  "producer_full_name": "Error processing data.csv for producer: name 'df_data' is not defined",
+  "asian_players_count": "Error processing table_65.csv for Asian players: [Errno 2] No such file or directory: 'table_65.csv'",
+  "first_match_teams": "Error processing table_12.csv for first match: [Errno 2] No such file or directory: 'table_12.csv'",
+  "last_match_teams": "Error processing table_12.csv for last match: [Errno 2] No such file or directory: 'table_12.csv'",
+  "leviatan_mvp_count": "Error processing table_9.csv for Leviatan MVPs: [Errno 2] No such file or directory: 'table_9.csv'"
+}

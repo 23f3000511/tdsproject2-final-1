@@ -1,0 +1,11 @@
+data.csv: This file contains the extracted data from the Wikipedia page.
+Dataframe information:
+None
+Dataframe columns:
+Index(['col1', 'col2', 'col3'], dtype='object')
+First 5 rows of the dataframe:
+   col1  col2  col3
+0     1     4     7
+1     2     5     8
+2     3     6     9
+JSON Answer format: ["answer1", "answer2", "answer3", "answer4"]

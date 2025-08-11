@@ -1,0 +1,16 @@
+2025-08-11 23:50:38,351 [INFO] Step-1: Folder created: uploads\cbf707fa-b625-4dca-9893-f7a3fe61bf6f
+2025-08-11 23:50:38,355 [INFO] Step-2: File sent {'New Text Document.txt': 'uploads\\cbf707fa-b625-4dca-9893-f7a3fe61bf6f\\New Text Document.txt'}
+2025-08-11 23:50:38,355 [INFO] Step-3: Getting scrap code and metadata from llm. Tries count = 0
+2025-08-11 23:50:51,673 [INFO] Step-3: Response from scrapping: and Peak?", 'Draw a scatterplot of Rank and Peak along with a dotted red regression line through it. Return as a base-64 encoded data URI.']}
+2025-08-11 23:50:56,293 [INFO] Step-4: Execution result of the scrape code: File "C:\Users\goura\OneDrive\Desktop\final project 1\TDS_project2-main\task_engine.py", line 22, in execute_code exec(code, exec_globals) ~~~~^^^^^^^^^^^^^^^^^^^^ File "<string>", line 54 f.write("[ ^ SyntaxError: unterminated string literal (detected at line 54)
+2025-08-11 23:50:56,295 [ERROR] Step-4: Error occured while scrapping. Tries count = 0
+2025-08-11 23:51:23,337 [ERROR] Step-4: error occured while reading json. Invalid \escape: line 2 column 2902 (char 2903)
+2025-08-11 23:51:23,337 [INFO] Step-3: Response from scrapping: and Peak?", 'Draw a scatterplot of Rank and Peak along with a dotted red regression line through it. Return as a base-64 encoded data URI.']}
+2025-08-11 23:51:28,064 [INFO] Step-4: Execution result of the scrape code: File "C:\Users\goura\OneDrive\Desktop\final project 1\TDS_project2-main\task_engine.py", line 22, in execute_code exec(code, exec_globals) ~~~~^^^^^^^^^^^^^^^^^^^^ File "<string>", line 54 f.write("[ ^ SyntaxError: unterminated string literal (detected at line 54)
+2025-08-11 23:51:28,064 [ERROR] Step-4: Error occured while scrapping. Tries count = 1
+2025-08-11 23:51:42,208 [INFO] Step-3: Response from scrapping: scatterplot of Rank and Peak along with a dotted red regression line through it. Return as a base-64 encoded data URI, "data:image/png;base64,iVBORw0..." under 100,000 bytes.']}
+2025-08-11 23:51:48,311 [INFO] Step-4: Execution result of the scrape code: File "C:\Users\goura\OneDrive\Desktop\final project 1\TDS_project2-main\task_engine.py", line 22, in execute_code exec(code, exec_globals) ~~~~^^^^^^^^^^^^^^^^^^^^ File "<string>", line 70 f.write("[ ^ SyntaxError: unterminated string literal (detected at line 70)
+2025-08-11 23:51:48,312 [ERROR] Step-4: Error occured while scrapping. Tries count = 2
+2025-08-11 23:52:01,152 [INFO] Step-3: Response from scrapping: scatterplot of Rank and Peak along with a dotted red regression line through it. Return as a base-64 encoded data URI, "data:image/png;base64,iVBORw0KG..." under 100,000 bytes.']}
+2025-08-11 23:52:08,325 [INFO] Step-4: Execution result of the scrape code: File "C:\Users\goura\OneDrive\Desktop\final project 1\TDS_project2-main\task_engine.py", line 22, in execute_code exec(code, exec_globals) ~~~~^^^^^^^^^^^^^^^^^^^^ File "<string>", line 78 f.write("[ ^ SyntaxError: unterminated string literal (detected at line 78)
+2025-08-11 23:52:08,325 [ERROR] error occured while scrapping.

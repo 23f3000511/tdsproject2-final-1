@@ -1,0 +1,8 @@
+2025-08-12 00:25:59,533 [INFO] Step-1: Folder created: uploads\7d761ea1-d810-4f8e-bedd-8be70df5ffcf
+2025-08-12 00:25:59,537 [INFO] Step-2: File sent {'New Text Document.txt': 'uploads\\7d761ea1-d810-4f8e-bedd-8be70df5ffcf\\New Text Document.txt'}
+2025-08-12 00:25:59,537 [INFO] Step-3: Getting scrap code and metadata from llm. Tries count = 0
+2025-08-12 00:26:10,065 [INFO] Step-3: Response from scrapping: scatterplot of Rank and Peak along with a dotted red regression line through it. Return as a base-64 encoded data URI, "data:image/png;base64,iVBORw0K..." under 100,000 bytes.']}
+2025-08-12 00:26:18,552 [INFO] Step-5: Getting execution code from llm. Tries count = 0
+2025-08-12 00:26:22,700 [INFO] Step-5: Response from llm: # Define the output file path output_file_path = "uploads/7d761ea1-d810-4f8e-bedd-8be70df5ffcf/result.json" # Save the results to a JSON file with open(output_file_path, 'w') as f: json.dump(results, f, indent=4)
+2025-08-12 00:26:22,701 [INFO] Step-6: Executing final code. Tries count = 0
+2025-08-12 00:26:22,707 [INFO] Step-7: send result back
